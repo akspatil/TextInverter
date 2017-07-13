@@ -3,12 +3,10 @@
         var data = $scope.input;
         var promisePost = TextInverterService.post(data);
         promisePost.then(function (response) {
-            console.log("illi " + response.data);
+            console.log("response success " + response.data);
             $scope.result = response.data
         }, function (error) {
-            console.log("Some error occured " + error.log);
-        }, function (update) {
-            console.log('Noclue what is happening ' + update);
+            console.log("Response failed " + error.log);
         });
     }
 })
