@@ -17,3 +17,12 @@ c:\users\acer\documents\visual studio 2015\Projects\TextInverterService\TextInve
 c:\users\acer\documents\visual studio 2015\Projects\TextInverterService\TextInverterService\obj\Debug\TextInverterService.csprojResolveAssemblyReference.cache
 c:\users\acer\documents\visual studio 2015\Projects\TextInverterService\TextInverterService\obj\Debug\TextInverterService.dll
 c:\users\acer\documents\visual studio 2015\Projects\TextInverterService\TextInverterService\obj\Debug\TextInverterService.pdb
+C:\Users\acer\Documents\Visual Studio 2015\Projects\TextInverterService\TextInverterService\bin\Newtonsoft.Json.dll
+C:\Users\acer\Documents\Visual Studio 2015\Projects\TextInverterService\TextInverterService\bin\System.Net.Http.Formatting.dll
+C:\Users\acer\Documents\Visual Studio 2015\Projects\TextInverterService\TextInverterService\bin\System.Web.Cors.dll
+C:\Users\acer\Documents\Visual Studio 2015\Projects\TextInverterService\TextInverterService\bin\System.Web.Http.Cors.dll
+C:\Users\acer\Documents\Visual Studio 2015\Projects\TextInverterService\TextInverterService\bin\System.Web.Http.dll
+C:\Users\acer\Documents\Visual Studio 2015\Projects\TextInverterService\TextInverterService\bin\Newtonsoft.Json.xml
+C:\Users\acer\Documents\Visual Studio 2015\Projects\TextInverterService\TextInverterService\bin\System.Net.Http.Formatting.xml
+C:\Users\acer\Documents\Visual Studio 2015\Projects\TextInverterService\TextInverterService\bin\System.Web.Http.xml
+C:\Users\acer\Documents\Visual Studio 2015\Projects\TextInverterService\TextInverterService\bin\System.Web.Http.Cors.xml

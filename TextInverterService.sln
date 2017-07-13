@@ -5,6 +5,11 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextInverterService", "TextInverterService\TextInverterService.csproj", "{ED9E662F-3C8B-4037-9524-E25E2877380A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextInverterClient", "TextInverterClient\TextInverterClient.csproj", "{FDBC2A71-0BAB-491A-84F4-97A75F61121B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{ED9E662F-3C8B-4037-9524-E25E2877380A} = {ED9E662F-3C8B-4037-9524-E25E2877380A}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +20,10 @@ Global
 		{ED9E662F-3C8B-4037-9524-E25E2877380A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED9E662F-3C8B-4037-9524-E25E2877380A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED9E662F-3C8B-4037-9524-E25E2877380A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDBC2A71-0BAB-491A-84F4-97A75F61121B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDBC2A71-0BAB-491A-84F4-97A75F61121B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDBC2A71-0BAB-491A-84F4-97A75F61121B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDBC2A71-0BAB-491A-84F4-97A75F61121B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

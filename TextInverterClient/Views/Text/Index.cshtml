@@ -1,0 +1,39 @@
+﻿<html ng-app="TextInverterModule">
+@{
+    ViewBag.Title = "Index";
+}
+<head>
+    <script src="~/Scripts/jquery-1.7.1.min.js"></script>
+    <script src="~/Scripts/Scripts/jquery.unobtrusive-ajax.js"></script>
+</head>
+<body>
+    <fieldset>
+        <legend>Text Inverter</legend>
+        @using (Ajax.BeginForm("ReverseTextOrder", "Text",
+                                        new AjaxOptions() { UpdateTargetId = "divTextConvert" }))
+        {
+            <div>
+                @Html.Label("Enter String")
+                @Html.TextBox("textVal")
+            </div>
+            <button>Invert Text</button>
+            <br />
+            <br />
+
+            <div id="divTextConvert">
+                @Html.Raw(ViewBag.Data)
+                <br />
+                <br />
+                @Html.Raw(ViewBag.Message)
+            </div>
+        }
+    </fieldset>
+</body>
+    @*<body ng-controller="TextInverterController">
+        <input type="text" id="textVal" data-ng-model="input" />
+        <input type="button" id="save" value="Save" data-ng-click="PostData()" />  
+        <br />
+        <p><span>{{result}}</span></p>
+    </body>*@
+</html>
+
