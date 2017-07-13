@@ -12,19 +12,9 @@ namespace TextInverterService
     [ServiceContract]
     public interface IService1
     {
-
-        [OperationContract]
-        [WebInvoke(Method = "GET")]
-        string GetData(int value);
-
-        [OperationContract]
-        CompositeType GetDataUsingDataContract(CompositeType composite);
-
         [OperationContract]
         [WebInvoke(UriTemplate = "ReverseEachWord", BodyStyle = WebMessageBodyStyle.Wrapped, RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json, Method = "POST")]
-
         string ReverseEachWord(string text);
-        // TODO: Add your service operations here
     }
 
 
